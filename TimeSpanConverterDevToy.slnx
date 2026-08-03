@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Solution Items/" />
+  <Project Path="Domain/Domain.csproj" />
+  <Project Path="TimeSpanConverter/TimeSpanConverter.csproj" />
+  <Project Path="TimeSpanFormatGenerator/TimeSpanFormatGenerator.csproj" />
+</Solution>

@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <LangVersion>12</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Update="TimeSpanFormats.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TimeSpanFormats.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="TimeSpanFormats.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TimeSpanFormats.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+	<InternalsVisibleTo Include="TimeSpanFormatGenerator" />
+  </ItemGroup>
+
+</Project>
